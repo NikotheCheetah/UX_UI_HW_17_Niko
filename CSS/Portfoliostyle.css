@@ -13,6 +13,7 @@ li {
     display: inline-block;
     vertical-align: top;
     align-content: flex-end;
+    outline: red;
 }
 
 #UX {
@@ -39,12 +40,14 @@ nav {
     width: 73%;
     padding: 1%;
     align-content: flex-start;
+    outline: red;
 }
 
 .splashPage {
     background-color: black;
     margin: 25px, 50px, 100px;
     flex-direction: column;
+    outline: red;
 }
 
 #nikolasRivera {
@@ -56,6 +59,7 @@ nav {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     font-size: 90px;
+    outline: red;
 }
 
 #uxDesigner {
@@ -66,6 +70,7 @@ nav {
     font-size: 48px;
     align-items: flex-start;
     justify-content: flex-end;
+    outline: red;
 }
 
 #illustrator {
@@ -76,6 +81,7 @@ nav {
     width: 15%;
     align-items: flex-start;
     justify-content: flex-end;
+    outline: red;
 }
 
 #slogan {
@@ -85,6 +91,7 @@ nav {
     color: white;
     float: right;
     display: inline-block;
+    outline: red;
 }
 
 img [alt~="Logo"] {
@@ -94,21 +101,25 @@ img [alt~="Logo"] {
     background-color: white;
     align-items: flex-start;
     display: block;
+    outline: red;
 }
 
 h1 {
     font-family: 'Arial Narrow Bold', Impact, sans-serif;
     font-size: 100px;
+    outline: red;
 }
 
 h2 {
     font-family: sans-serif bold;
     font-size: 85px;
+    outline: red;
 }
 
 p {
     font-family: sans-serif;
     font-size: 58px;
+    outline: red;
 }
 
 
@@ -116,18 +127,21 @@ button [alt~="photoshopButton"] {
     float: right;
     display: block;
     background-color: black;
+    outline: red;
 }
 
 button [alt~="linkedinButton"] {
     background-color: black;
     display: block;
     float: right;
+    outline: red;
 }
 
 button [alt~="behanceButton"] {
     background-color: black;
     display: block;
     float: right;
+    outline: red;
 }
 
 .content {
@@ -136,6 +150,7 @@ button [alt~="behanceButton"] {
     display: block;
     align-items: center;
     justify-content: flex-start;
+    outline: red;
 }
 
 img [alt~="profilePicture"] {
@@ -143,6 +158,7 @@ img [alt~="profilePicture"] {
     display: inline-block;
     align-items: center;
     justify-content: flex-end;
+    outline: red;
 }
 
 .MySkills {
@@ -155,6 +171,7 @@ img [alt~="profilePicture"] {
     float: left;
     align-items: flex-start;
     justify-content: flex-start;
+    outline: red;
 }
 
 .userEmpathy1 {
@@ -162,6 +179,7 @@ img [alt~="profilePicture"] {
     float: center;
     align-items: flex-start;
     justify-content: center;
+    outline: red;
 }
 
 .qualitativeInterviews1 {
@@ -169,6 +187,7 @@ img [alt~="profilePicture"] {
     float: right;
     align-items: flex-start;
     justify-content: flex-end;
+    outline: red;
 }
 
 .userResearch {
@@ -176,6 +195,7 @@ img [alt~="profilePicture"] {
     float: left;
     align-items: center;
     justify-content: flex-start;
+    outline: red;
 }
 
 .userEmpathy {
@@ -183,6 +203,7 @@ img [alt~="profilePicture"] {
     float: center;
     align-items: center;
     justify-content: center;
+    outline: red;
 }
 
 .qualitativeInterviews {
@@ -190,6 +211,7 @@ img [alt~="profilePicture"] {
     float: right;
     align-items: center;
     justify-content: flex-end;
+    outline: red;
 }
 
 .Tools {
@@ -199,124 +221,152 @@ img [alt~="profilePicture"] {
 
 .adobeCc {
     color: white
+    outline: red;
 }
 
 img [alt~="photoshopImage"] {
     margin-left: 0 auto;
+    outline: red;
 }
 
 img [alt~="indesignImage"] {
     margin-left: 0 auto;
+    outline: red;
 }
 
 img [alt~="illustratorImage"] {
     margin-left: 0 auto;
+    outline: red;
 }
 
 img [alt~="xdImage"] {
     margin-left: 0 auto;
+    outline: red;
 }
 
 img [alt~="skillBar1"] {
     margin-left: 0 auto;
+    outline: red;
 }
 
 .googleSuites {
     color: white;
+    outline: red;
 }
 
 img [alt~="googleDrive"] {
     margin-left: 0 auto;
+    outline: red;
 }
 
 img [alt~="googleExcel"] {
     margin-left: 0 auto;
+    outline: red;
 }
 
 img [alt~="googleDocs"] {
     margin-left: 0 auto;
+    outline: red;
 }
 
 img [alt~="googleSlides"] {
     margin-left: 0 auto;
+    outline: red;
 }
 
 img [alt~="googleForms"] {
     margin-left: 0 auto;
+    outline: red;
 }
 
 img [alt~="skillBar2"] {
     float: left;
+    outline: red;
 }
 
 .miro {
     color: white;
     float: right;
+    outline: red;
 }
 
 img [alt~="skillBar3"] {
     float: right;
+    outline: red;
 }
 
 .figma {
     color: white;
     float: right;
+    outline: red;
 }
 
 img [alt~="skillBar4"] {
     float: right;
+    outline: red;
 }
 
 .procreate {
     color: white;
     float: right;
+    outline: red;
 }
 
 img [alt~="skillBar5"] {
     float: right;
+    outline: red;
 }
 
 .Projects {
     background-color: white;
     margin: 25px, 50px,75px;
+    outline: red;
 }
 
 button [alt~="illustrationsButton"] {
     float: left;
     background-color: white;
+    outline: red;
 }
 
 button [alt~="xdButton"] {
     float: center;
     background-color: white;
+    outline: red;
 }
 
 button [alt~="charactersButton"] {
     float: right;
     background-color: white;
+    outline: red;
 }
 
 .Contact {
     background-color: black;
     margin: 25px, 50px,75px;
+    outline: red;
 }
 
 .titleContact {
     color: white;
+    outline: red;
 }
 
 .name {
     color: gray;
     border-color: white;
+    outline: red;
 }
 
 .email {
     color: gray;
     border-color: white;
+    outline: red;
 }
 
 .description {
     color: gray;
     border-color: white;
+    outline: red;
 }
 
