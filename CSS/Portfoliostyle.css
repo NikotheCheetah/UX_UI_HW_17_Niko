@@ -1,0 +1,322 @@
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 20px, 50px, 75px;
+    padding: 4px;
+}
+
+
+li {
+    display: inline-block;
+    vertical-align: top;
+    align-content: flex-end;
+}
+
+#UX {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Illustrations {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Characters {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#About {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {    
+    width: 73%;
+    padding: 1%;
+    align-content: flex-start;
+}
+
+.splashPage {
+    background-color: black;
+    margin: 25px, 50px, 100px;
+    flex-direction: column;
+}
+
+#nikolasRivera {
+    height: 20%;
+    width: 25%;
+    display: block;
+    float: right;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 90px;
+}
+
+#uxDesigner {
+    color: white;
+    float: right;
+    display: inline;
+    width: 15%;
+    font-size: 48px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+#illustrator {
+    color: white;
+    float: right;
+    display: inline;
+    font-size: 48px;
+    width: 15%;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+#slogan {
+    height: 45%;
+    width: 50%;
+    font-size: 20px;
+    color: white;
+    float: right;
+    display: inline-block;
+}
+
+img [alt~="Logo"] {
+    display: block;
+    height: 300%;
+    padding: 25px;
+    background-color: white;
+    align-items: flex-start;
+    display: block;
+}
+
+h1 {
+    font-family: 'Arial Narrow Bold', Impact, sans-serif;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: sans-serif bold;
+    font-size: 85px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 58px;
+}
+
+
+button [alt~="photoshopButton"] {
+    float: right;
+    display: block;
+    background-color: black;
+}
+
+button [alt~="linkedinButton"] {
+    background-color: black;
+    display: block;
+    float: right;
+}
+
+button [alt~="behanceButton"] {
+    background-color: black;
+    display: block;
+    float: right;
+}
+
+.content {
+    width: 50%;
+    float: left;
+    display: block;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+img [alt~="profilePicture"] {
+    float: right;
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.MySkills {
+    background-color: black;
+    margin: 25px, 50px,75px;
+}
+
+.userResearch1 {
+    color: white;
+    float: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.userEmpathy1 {
+    color: white;
+    float: center;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.qualitativeInterviews1 {
+    color: white;
+    float: right;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.userResearch {
+    color: white;
+    float: left;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.userEmpathy {
+    color: white;
+    float: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.qualitativeInterviews {
+    color: white;
+    float: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Tools {
+    background-color: black;
+    margin: 25px, 50px;
+}
+
+.adobeCc {
+    color: white
+}
+
+img [alt~="photoshopImage"] {
+    margin-left: 0 auto;
+}
+
+img [alt~="indesignImage"] {
+    margin-left: 0 auto;
+}
+
+img [alt~="illustratorImage"] {
+    margin-left: 0 auto;
+}
+
+img [alt~="xdImage"] {
+    margin-left: 0 auto;
+}
+
+img [alt~="skillBar1"] {
+    margin-left: 0 auto;
+}
+
+.googleSuites {
+    color: white;
+}
+
+img [alt~="googleDrive"] {
+    margin-left: 0 auto;
+}
+
+img [alt~="googleExcel"] {
+    margin-left: 0 auto;
+}
+
+img [alt~="googleDocs"] {
+    margin-left: 0 auto;
+}
+
+img [alt~="googleSlides"] {
+    margin-left: 0 auto;
+}
+
+img [alt~="googleForms"] {
+    margin-left: 0 auto;
+}
+
+img [alt~="skillBar2"] {
+    float: left;
+}
+
+.miro {
+    color: white;
+    float: right;
+}
+
+img [alt~="skillBar3"] {
+    float: right;
+}
+
+.figma {
+    color: white;
+    float: right;
+}
+
+img [alt~="skillBar4"] {
+    float: right;
+}
+
+.procreate {
+    color: white;
+    float: right;
+}
+
+img [alt~="skillBar5"] {
+    float: right;
+}
+
+.Projects {
+    background-color: white;
+    margin: 25px, 50px,75px;
+}
+
+button [alt~="illustrationsButton"] {
+    float: left;
+    background-color: white;
+}
+
+button [alt~="xdButton"] {
+    float: center;
+    background-color: white;
+}
+
+button [alt~="charactersButton"] {
+    float: right;
+    background-color: white;
+}
+
+.Contact {
+    background-color: black;
+    margin: 25px, 50px,75px;
+}
+
+.titleContact {
+    color: white;
+}
+
+.name {
+    color: gray;
+    border-color: white;
+}
+
+.email {
+    color: gray;
+    border-color: white;
+}
+
+.description {
+    color: gray;
+    border-color: white;
+}
+
