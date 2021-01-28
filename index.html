@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <header>
-    <nav>
-        <ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+        <ul class="navbar-nav">
             <li>
-                <button id="UX">UX</button>
+                <a href="#">UX</a>
             </li>
             <li>
-                <button id="Illustrations">Illustrations</button>
+                <a href="#">Illustrations</a>
             </li>
             <li>
-                <button id="Characters">Characters</button>
+                <a href="#">Characters</a>
             </li>
             <li>
-                <button id="About">About</button>
+                <a href="#">About</a>
             </li>
         </ul>
     </nav>
@@ -27,42 +27,43 @@
 <body>
     <section>
         <div class="splashPage">
-        <img src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/Main Logo-01.png" alt="Logo">
-        <h1 id="nikolasRivera">Nikolas Rivera</h1>
-        <h2 id="uxDesigner">UX Designer</h2>
-        <h3 id="illustrator"> Illustrator</h3>
+        <h1>
+            <div><img class="Logo" src="images/Main Logo-01.png" alt="Logo"></div>
+            <div id="nikolasRivera">Nikolas Rivera</div>
+        </h1>
+        <h2>
+            <div id="uxDesigner">UX Designer</div>
+            <div id="illustrator"> Illustrator</div>
+        </h2>
         <p id="slogan">'Every artist was once an amateur"
                                 - Ralph Waldo Emerson
         </p>
-        <button>
-            <img src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/instagram.png" alt="photoshopButton">
-        </button>
-        <button>
-            <img src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/linkedin.png" alt="linkedinButton">
-        </button>
-        <button>
-            <img src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/behance.png" alt="behanceButton">
-        </button>
+        <a href="#"><img class="instagramButton" src="images/instagram.png" alt="instagramButton"></a>
+        <a href="#"><img class="linkedinButton" src="images/linkedin.png" alt="linkedinButton"></a>
+        <a href="#"><img class="behanceButton" src="images/behance.png" alt="behanceButton"></a>
+
         </div>
-        <div class="About Me">
-            <h1>About Me</h1>
+
+        <div class="aboutMe">
+            <h3 class="titleAbout">About Me</h3>
             <p class="content">Hello! My name is Nikolas Rivera and I am a UX designer and Illustrator. I specialize in user research, user interface, design-thinking, graphic design and illustration. 
-                
+                <br>
                 I enjoy solving user problems that involve poor layout and accessibility. As an illustrator and a designer I enjoy thinking in both ways of traditional and modern art when I create. So, if you ever meet or see me feel free to call me Niko
             </p>
-            <img src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/Niko Portfolio Picture.png" alt="profilePicture">
+            <img class="profilePicture" src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/Niko Portfolio Picture.png" alt="profilePicture">
         </div>
-        <div class="MySkills">
-            <h1 class="titleSkills">My Skills</h1>
-            <h2 class="userResearch1">User Research</h2>
-            <h3 class="userEmpathy1">User Empathy</h3>
-            <h4 class="qualitativeResearch1"></h4>
+        <div class="mySkills">
+            <h4 class="titleSkills">My Skills</h4>
+            <h5 class="userResearch1">User Research</h5>
+            <h6 class="userEmpathy1">User Empathy</h6>
+            <h7 class="qualitativeResearch1"></h7>
             <p class="userResearch">In order to understand my users I must know who they are and what they need. I search for who my user is by creating surveys, planning interviews, and creating proto/user personas.</p>
             <p class="userEmpathy">Talking with users directly allows me to comprehend their needs. I use Miro and Figma to note key findings by creating affinity diagrams and feature-prioritzation matrixes. This then narrows down the decision-making on finding the solution to the problem.</p>
             <p class="qualitativeInterviews">User interviews are where I find the most information on figuring out the problem and the potential ideas for a solution. I try to make my interviews more into a friendly conversation and I am always open-minded to anyone’s opinion. I believe making the user comfortable comes first.</p>
         </div>
+
         <div class="Tools">
-            <h1 class="titleTools">Tools</h1>
+            <h8 class="titleTools">Tools</h8>
             <p class="adobeCc">Adobe cc</p>
             <img src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/photoshop.png" alt="photoshopImage">
             <img src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/indesign.png" alt="indesignImage">
@@ -83,20 +84,16 @@
             <p class="procreate">Procreate</p>
             <img src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/Group 88.png" alt="skillBar5">
         </div>
+
         <div class="Projects">
-            <h1 class="titleProjects">Projects</h1>
-            <button>
-                <img src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/Component 8 – 1.png" alt="illustrationsButton">
-            </button>
-            <button>
-                <img src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/Component 25 – 1.png" alt="xdButton">
-            </button>
-            <button>
-                <img src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/Component 20 – 1.png" alt="charactersButton">
-            </button>
-        </div>
+            <h9 class="titleProjects">Projects</h9>
+            <a href="#"><img class="illustrationsButton" src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/Component 8 – 1.png" alt="illustrationsButton"></a>
+            <a href="#"><img class="xdButton" src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/Component 25 – 1.png" alt="xdButton"></a>
+            <a href="#"><img class="charactersButton" src="/Volumes/2TB Hardrive/Niko Portfolio Coding/UX_UI_HW_17_Niko/images/Component 20 – 1.png" alt="charactersButton"></a>
+         </div>
+
         <div class="Contact">
-            <h1 class="titleContact">Contact</h1>
+            <h10 class="titleContact">Contact</h10>
             <p class="name">Name</p>
             <p class="email">Email</p>
             <p class="description">Description...</p>
@@ -110,4 +107,6 @@
     </section>
 </body>
 <footer></footer>
+<script src="'https://code.jquery.com/jquery-3.4.1.min.js'"></script>
+<script src="/JS/index.js"></script>
     </html>
