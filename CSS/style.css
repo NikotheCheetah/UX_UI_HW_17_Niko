@@ -30,7 +30,8 @@ nav {
 
 a {
     text-decoration: none;
-    font-size: 58px;
+    font-size: 25px;
+    padding: 5px 10px 5px 10px;
     color: black;
     justify-content: space-between;
 }
@@ -52,7 +53,7 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
+    color: blue;
     font-size: 100px;
 }
 #uxDesigner {
